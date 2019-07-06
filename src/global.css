@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.ant-card {
+    margin-bottom: 20px;
+}
+
+.ant-card:hover {
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.ant-card-meta-title {
+    cursor: pointer;
+}
+
+.ant-card-meta-title a {
+    color: #000;
+}
