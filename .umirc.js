@@ -3,6 +3,7 @@
 export default {
   treeShaking: true,
   outputPath: './docs',
+  publicPath: './',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
