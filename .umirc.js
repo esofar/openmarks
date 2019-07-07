@@ -4,7 +4,7 @@ export default {
   treeShaking: true,
   history: 'browser',
   base: '/',
-  publicPath: '/openmarks',
+  publicPath: './',
   outputPath: './docs',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
