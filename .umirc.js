@@ -2,7 +2,7 @@
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
-  history: 'browser',
+  history: 'hash',
   base: '/',
   publicPath: './',
   outputPath: './docs',
