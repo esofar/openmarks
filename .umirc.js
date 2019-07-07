@@ -3,7 +3,7 @@
 export default {
   treeShaking: true,
   history: 'hash',
-  base: './',
+  base: '/openmarks',
   publicPath: './',
   outputPath: './docs',
   plugins: [
