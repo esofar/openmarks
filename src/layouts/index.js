@@ -4,6 +4,7 @@ import miniLogo from '../assets/logo_mini.png';
 import { Component } from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import Link from 'umi/link';
+import GitHubCorners from '../components/GitHubCorners';
 const { Header, Sider, Content } = Layout;
 const { SubMenu } = Menu;
 
@@ -35,7 +36,7 @@ class BasicLayout extends Component {
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
               <Link to="/recommends">
-                <Icon type="pie-chart" />
+                <Icon type="fire" />
                 <span>热门推荐</span>
               </Link>
             </Menu.Item>
@@ -73,6 +74,7 @@ class BasicLayout extends Component {
               type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
               onClick={this.toggle}
             />
+            <GitHubCorners href='https://github.com/esofar/openmarks' />
           </Header>
           <Content
             style={{

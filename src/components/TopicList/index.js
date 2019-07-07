@@ -13,14 +13,14 @@ class TopicList extends Component {
                     return (
                         <div key={index}>
                             <div className={styles.topic}>
-                                <Icon type="book" />
+                                <Icon type={topic.icon || 'book'} />
                                 <span>{topic.name}</span>
                             </div>
                             <Row gutter={16}>
                                 {
                                     topic.items.map((item, idx) => {
                                         return (
-                                            <Col key={idx} sm={24} md={12} lg={6}>
+                                            <Col key={idx} sm={24} md={12} lg={8} xl={6}>
                                                 <Tooltip placement="bottom" title={item.href}>
                                                     <Card bordered={false}>
                                                         <Card.Meta
