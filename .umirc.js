@@ -2,9 +2,9 @@
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
-  history: 'hash',
-  base: './',
-  publicPath: './',
+  history: 'browser',
+  base: '/',
+  publicPath: '/openmarks',
   outputPath: './docs',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
