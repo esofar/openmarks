@@ -13,7 +13,7 @@ export default [
             {
                 title: 'Github',
                 desc: '全球最大的开源代码托管平台',
-                logo: './logos/github.png',
+                logo: './logos/github.ico',
                 href: 'https://github.com',
                 sort: 1000,
             },
@@ -27,7 +27,7 @@ export default [
             {
                 title: 'Stack Overflow',
                 desc: '程序设计领域的问答网站',
-                logo: './logos/stackoverflow.png',
+                logo: './logos/stackoverflow.ico',
                 href: 'https://stackoverflow.com',
                 sort: 1000,
             },

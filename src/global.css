@@ -26,3 +26,9 @@ body {
 .ant-card-meta-title a {
     color: #000;
 }
+
+.ant-card-meta-description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

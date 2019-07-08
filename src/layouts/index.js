@@ -6,15 +6,13 @@ import { Layout, Menu, Icon } from 'antd';
 import Link from 'umi/link';
 import GitHubCorners from '../components/GitHubCorners';
 const { Header, Sider, Content } = Layout;
-const { SubMenu } = Menu;
-
 
 class BasicLayout extends Component {
   state = {
     collapsed: false,
   };
 
-  toggle = () => {
+  toggle = () => { 
     this.setState({
       collapsed: !this.state.collapsed,
     });
@@ -31,13 +29,19 @@ class BasicLayout extends Component {
           style={{ minHeight: '100vh' }}>
           <div className={styles.logo}>
             <img src={this.state.collapsed ? miniLogo : logo} alt="" />
-            <div>{this.state.collapsed ? '' : '开发者优质资源导航'}</div>
+            <div>{this.state.collapsed ? '' : '开发者优质资源导航' }</div>
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
               <Link to="/recommends">
                 <Icon type="fire" />
                 <span>热门推荐</span>
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="5">
+              <Link to="/interface">
+                <Icon type="pie-chart" />
+                <span>用户界面</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="2">
@@ -58,13 +62,6 @@ class BasicLayout extends Component {
                 <span>在线工具</span>
               </Link>
             </Menu.Item>
-            <Menu.Item key="5">
-              <Link to="/5">
-                <Icon type="pie-chart" />
-                <span>前端开发</span>
-              </Link>
-            </Menu.Item>
-
           </Menu>
         </Sider>
         <Layout>

@@ -21,15 +21,22 @@ class TopicList extends Component {
                                     topic.items.map((item, idx) => {
                                         return (
                                             <Col key={idx} sm={24} md={12} lg={8} xl={6}>
-                                                <Tooltip placement="bottom" title={item.href}>
-                                                    <Card bordered={false}>
-                                                        <Card.Meta
-                                                            title={<a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>}
-                                                            description={item.desc}
-                                                            avatar={<Avatar src={item.logo} />}
-                                                        />
-                                                    </Card>
-                                                </Tooltip>
+
+                                                <Card bordered={false}>
+                                                    <Card.Meta
+                                                        title={
+                                                            <Tooltip placement="topLeft" title={item.href}>
+                                                                <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                                                            </Tooltip>
+                                                        }
+                                                        description={
+                                                            <Tooltip placement="bottomLeft" title={item.desc}>
+                                                                {item.desc}
+                                                            </Tooltip>}
+                                                        avatar={<Avatar src={item.logo} />}
+                                                    />
+                                                </Card>
+
                                             </Col>
                                         )
                                     })
