@@ -8,6 +8,16 @@ body {
     margin: 0;
 }
 
+.ant-layout-sider,
+.ant-menu-dark {
+    background: #23263E;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #393f59;
+}
+
 .ant-card {
     margin-bottom: 20px;
 }

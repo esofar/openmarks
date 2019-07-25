@@ -27,7 +27,7 @@ export default [
             {
                 title: 'Stack Overflow',
                 desc: '程序设计领域的问答网站',
-                logo: './logos/stackoverflow.ico',
+                logo: './logos/stackoverflow.png',
                 href: 'https://stackoverflow.com',
                 sort: 1000,
             },

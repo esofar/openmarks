@@ -12,7 +12,7 @@ class BasicLayout extends Component {
     collapsed: false,
   };
 
-  toggle = () => { 
+  toggle = () => {
     this.setState({
       collapsed: !this.state.collapsed,
     });
@@ -25,47 +25,47 @@ class BasicLayout extends Component {
           trigger={null}
           collapsible
           collapsed={this.state.collapsed}
-          width={256}
+          width={220}
           style={{ minHeight: '100vh' }}>
           <div className={styles.logo}>
             <img src={this.state.collapsed ? miniLogo : logo} alt="" />
-            <div>{this.state.collapsed ? '' : '开发者优质资源导航' }</div>
+            <div>{this.state.collapsed ? '' : '开发者优质资源导航'}</div>
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
               <Link to="/recommends">
                 <Icon type="fire" />
-                <span>热门推荐</span>
+                <span>热门 | 推荐 | 常用</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="5">
               <Link to="/interface">
-                <Icon type="pie-chart" />
-                <span>用户界面</span>
+                <Icon type="star" />
+                <span>设计 | 前端 | 素材</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="2">
               <Link to="/2">
-                <Icon type="pie-chart" />
-                <span>编程语言</span>
+                <Icon type="thunderbolt" />
+                <span>编程 | 开发 | 运维</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="3">
               <Link to="/3">
-                <Icon type="pie-chart" />
-                <span>渗透测试</span>
+                <Icon type="safety-certificate" />
+                <span>测试 | 渗透 | 安全</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="4">
               <Link to="/4">
-                <Icon type="pie-chart" />
-                <span>在线工具</span>
+                <Icon type="folder-open" />
+                <span>软件 | 工具 | 插件</span>
               </Link>
             </Menu.Item>
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>
+          <Header className={styles.header}>
             <Icon
               className={styles.trigger}
               type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
