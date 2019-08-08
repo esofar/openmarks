@@ -21,14 +21,9 @@ class TopicList extends Component {
                                     topic.items.map((item, idx) => {
                                         return (
                                             <Col key={idx} sm={24} md={12} lg={8} xl={6}>
-
                                                 <Card bordered={false}>
                                                     <Card.Meta
-                                                        title={
-                                                            <Tooltip placement="topLeft" title={item.href}>
-                                                                <a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>
-                                                            </Tooltip>
-                                                        }
+                                                        title={<a href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</a>}
                                                         description={
                                                             <Tooltip placement="bottomLeft" title={item.desc}>
                                                                 {item.desc}
@@ -36,7 +31,6 @@ class TopicList extends Component {
                                                         avatar={<Avatar src={item.logo} />}
                                                     />
                                                 </Card>
-
                                             </Col>
                                         )
                                     })

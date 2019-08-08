@@ -25,7 +25,7 @@ class BasicLayout extends Component {
           trigger={null}
           collapsible
           collapsed={this.state.collapsed}
-          width={220}
+          width={200}
           style={{ minHeight: '100vh' }}>
           <div className={styles.logo}>
             <img src={this.state.collapsed ? miniLogo : logo} alt="" />
@@ -33,19 +33,19 @@ class BasicLayout extends Component {
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
-              <Link to="/recommends">
+              <Link to="/recommended">
                 <Icon type="fire" />
-                <span>热门 | 推荐 | 常用</span>
+                <span>推荐 | 精选 | 常用</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="5">
               <Link to="/interface">
                 <Icon type="star" />
-                <span>设计 | 前端 | 素材</span>
+                <span>界面 | 设计 | 素材</span>
               </Link>
             </Menu.Item>
             <Menu.Item key="2">
-              <Link to="/2">
+              <Link to="/development">
                 <Icon type="thunderbolt" />
                 <span>编程 | 开发 | 运维</span>
               </Link>
@@ -57,7 +57,7 @@ class BasicLayout extends Component {
               </Link>
             </Menu.Item>
             <Menu.Item key="4">
-              <Link to="/4">
+              <Link to="/software">
                 <Icon type="folder-open" />
                 <span>软件 | 工具 | 插件</span>
               </Link>

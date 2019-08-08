@@ -8,6 +8,14 @@ body {
     margin: 0;
 }
 
+.ant-layout {
+    background-color: #F6F6F6;
+}
+
+.ant-avatar {
+    border-radius: 3px;
+}
+
 .ant-layout-sider,
 .ant-menu-dark {
     background: #23263E;
