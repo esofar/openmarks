@@ -128,13 +128,7 @@ export default [
         name: '其他工具',
         icon: 'github',
         items: [
-            {
-                title: 'Mockaroo',
-                desc: '随机数据生成器和 API 模拟工具',
-                logo: './logos/mockaroo.png',
-                href: 'https://mockaroo.com',
-                sort: 1000,
-            },
+            
         ]
     },
 ];

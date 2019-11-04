@@ -31,10 +31,14 @@ body {
 }
 
 .ant-card:hover {
-    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
+    -webkit-box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-0.25rem);
+    -moz-transform: translateY(-0.25rem);
+    -ms-transform: translateY(-0.25rem);
+    -o-transform: translateY(-0.25rem);
+    transform: translateY(-0.25rem);
 }
 
 .ant-card-meta-title {

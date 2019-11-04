@@ -162,6 +162,13 @@ export default [
                 href: 'https://www.pexels.com',
                 sort: 1000,
             },
+            {
+                title: 'Mixkit',
+                desc: '免费可商用的高质量视频素材库',
+                logo: './logos/mixkit.png',
+                href: 'https://mixkit.co',
+                sort: 1000,
+            },
         ]
     },
     {
