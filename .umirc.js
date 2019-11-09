@@ -5,14 +5,14 @@ export default {
   history: 'hash',
   base: '/',
   publicPath: './',
-  outputPath: './docs',
+  outputPath: './build',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
       antd: true,
       dva: false,
       dynamicImport: false,
-      title: 'Openmarks - 开发者优质资源导航',
+      title: 'Openmarks - A high-quality resource navigation, built for developers.',
       dll: false,
 
       routes: {
