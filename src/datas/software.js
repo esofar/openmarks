@@ -11,13 +11,6 @@ export default [
                 sort: 1000,
             },
             {
-                title: '7-Zip',
-                desc: '一款拥有极高压缩比的开源压缩软件。',
-                logo: './logos/7zip.png',
-                href: 'https://www.7-zip.org',
-                sort: 1000,
-            },
-            {
                 title: 'Curl',
                 desc: '可以在命令行或脚本中使用的数据传输工具，常用来请求 Web 服务器。其开源免费、功能强大，使用熟练完全可以取代类似 Postman 的图形界面工具。',
                 logo: './logos/curl.png',
@@ -26,12 +19,18 @@ export default [
             },
             {
                 title: 'Cmder',
-                desc: '一款 Windows 环境下具有 Linux 溫度的便携式命令提示符工具。',
+                desc: '一款 Windows 环境下具有 Linux 温度的便携式命令提示符工具。',
                 logo: './logos/cmder.png',
                 href: 'https://cmder.net',
                 sort: 1000,
             },
-            
+            {
+                title: '7-Zip',
+                desc: '一款拥有极高压缩比的开源压缩软件。',
+                logo: './logos/7zip.png',
+                href: 'https://www.7-zip.org',
+                sort: 1000,
+            },
         ],
     },
     {
