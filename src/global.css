@@ -18,12 +18,25 @@ body {
 
 .ant-layout-sider,
 .ant-menu-dark {
-    background: #23263E;
+    background: #333547;
+}
+
+.ant-layout-sider-trigger {
+    background: #333547;
+}
+
+.ant-menu-dark .ant-menu-item>a {
+    color: #8699ad;
+}
+
+.ant-menu-dark .ant-menu-item>a:hover {
+    color: #b4c9de;
 }
 
 .ant-menu.ant-menu-dark .ant-menu-item-selected,
 .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
-    background-color: #393f59;
+    background-color: #383b4e;
+    color: #b4c9de !important;
 }
 
 .ant-card {
@@ -31,14 +44,8 @@ body {
 }
 
 .ant-card:hover {
-    -webkit-box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1.375rem 2.6875rem rgba(0, 0, 0, 0.15);
-    -webkit-transform: translateY(-0.25rem);
-    -moz-transform: translateY(-0.25rem);
-    -ms-transform: translateY(-0.25rem);
-    -o-transform: translateY(-0.25rem);
     transform: translateY(-0.25rem);
+    box-shadow: 0 1px 15px rgba(27, 31, 35, .15), 0 0 1px rgba(106, 115, 125, .35);
 }
 
 .ant-card-meta-title {
@@ -53,4 +60,27 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+
+/* 设置滚动条的样式 */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+/* 滚动槽 */
+
+::-webkit-scrollbar-track {
+    background-color: #333547;
+    border-radius: 0px;
+}
+
+
+/* 滚动条滑块 */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #3E4B61;
 }

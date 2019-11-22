@@ -1,25 +1,25 @@
 export default [
     {
-        name: '设计规范',
+        name: '设计语言',
         icon: 'crown',
         items: [
             {
                 title: 'Material Design',
-                desc: '材料设计，是由 Google 推出的全新的跨平台设计语言。',
+                desc: '材料设计，由 Google 推出的全新的跨平台设计语言。',
                 logo: './logos/material.png',
                 href: 'https://material.io',
                 sort: 1000,
             },
             {
                 title: 'Fluent Design',
-                desc: '流畅设计，是由 Microsoft 推出的全新的跨平台设计语言。',
+                desc: '流畅设计，由 Microsoft 推出的全新的跨平台设计语言。',
                 logo: './logos/fluentdesign.png',
                 href: 'https://www.microsoft.com/design/fluent/',
                 sort: 1000,
             },
             {
                 title: 'Human Interface Guidelines',
-                desc: 'Apple 人机界面指南，获取深入的信息和 UI 资源，以设计与 Apple 平台无缝集成的优秀应用程序。',
+                desc: 'Apple 人机界面指南，您可获取深入的信息和 UI 资源，用以设计与 Apple 平台无缝集成的优秀应用程序。',
                 logo: './logos/apple.png',
                 href: 'https://developer.apple.com/design/human-interface-guidelines/',
                 sort: 1000,
@@ -34,9 +34,16 @@ export default [
         ]
     },
     {
-        name : '网站模板',
+        name : '模板商店',
         icon: 'shopping',
         items:[
+            {
+                title: 'TemplateMonster',
+                desc: '模板怪兽，全球最大的模板网站，在这里您可以为创建网站购买所需的一切。',
+                logo: './logos/templatemonster.png',
+                href: 'https://www.templatemonster.com',
+                sort: 1000,
+            },
             {
                 title: 'Themeforest',
                 desc: '主题森林，优质 WordPress 主题、网站模板购买商店。',
@@ -45,22 +52,15 @@ export default [
                 sort: 1000,
             },
             {
-                title: 'TemplateMonster',
-                desc: '怪兽模板，全球最大的模板网，提供网站模板、网页模板、网页设计模板、主题下载等服务。',
-                logo: './logos/templatemonster.png',
-                href: 'https://www.templatemonster.com',
-                sort: 1000,
-            },
-            {
                 title: 'One Page Love',
-                desc: '单页网站模板和资源，您可以在这里寻找灵感、查找模板、阅读文章或收听播客。',
+                desc: '专注于提供单页网站、模板和资源，您也可以在这里寻找灵感、查找模板、阅读文章或收听播客。',
                 logo: './logos/onepagelove.png',
                 href: 'https://onepagelove.com',
                 sort: 1000,
             },
             {
                 title: 'Landingfolio',
-                desc: '收集最佳 Landing Page 设计灵感的免费和高级模板。',
+                desc: '提供超过 643 个具备最佳设计灵感的 Landing Page 示例。',
                 logo: './logos/landingfolio.png',
                 href: 'https://www.landingfolio.com',
                 sort: 1000,

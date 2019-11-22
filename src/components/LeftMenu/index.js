@@ -8,7 +8,7 @@ class LeftMenu extends Component {
         const menus = this.props.menus;
 
         return (
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+            <Menu theme="dark" mode="inline" defaultSelectedKeys={['0']}>
                 {menus.map((menu, index) => {
                     return (
                         <Menu.Item key={index}>

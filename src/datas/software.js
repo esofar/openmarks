@@ -177,8 +177,8 @@ export default [
                 sort: 1000,
             },
             {
-                title: 'Restlet Client',
-                desc: '一款颜值比较高的轻量级 REST API 测试工具，后续更名为 Talend API Tester 继续提供服务。',
+                title: 'Talend API Tester',
+                desc: '一款颜值比较高的轻量级 REST API 测试工具。',
                 logo: './logos/restletclient.png',
                 href: 'https://restlet.com/modules/client/',
                 sort: 1000,
