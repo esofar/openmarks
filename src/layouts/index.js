@@ -39,7 +39,7 @@ class BasicLayout extends Component {
           </div>
           <LeftMenu menus={menus} />
         </Sider>
-        <Layout style={{ marginLeft: this.state.contentMarginLeft, minHeight: '100vh' }}>
+        <Layout style={{ marginLeft: this.state.contentMarginLeft, minHeight: '100vh', transition: 'all 0.15s ease-in-out 0s' }}>
           <GitHubCorners href='https://github.com/esofar/openmarks' />
           <Content className={styles.content}>
             {this.props.children}
