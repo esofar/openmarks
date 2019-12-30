@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: build
 on:
   push:
     branches:
@@ -17,4 +17,4 @@ jobs:
         BRANCH: gh-pages
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
-        CNAME: om.esofar.cn
+        CNAME: openmarks.cn
